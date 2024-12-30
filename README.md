@@ -1,4 +1,4 @@
-# AI Term Project
+# AI Term Project 
 
 ## Overview
 This project applies AI techniques to solve a real-world problem in [healthcare], involves data preprocessing, feature selection, model implementation, and performance analysis.
