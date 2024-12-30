@@ -14,7 +14,7 @@ To set up the environment and run the project, follow these steps:
 
 1. Clone the repository:
       bash
-   git clone [https://console.cloud.google.com/artifacts/docker/kaggle-images/us/gcr.io/python/sha256:a6241bd0d98e81ea21f4cfba26ef48fc159646b112fc4986113d5ab219c6c26f?pli=1]
+   git clone https://github.com/Ayubmussa/Ayub-Mussa.git
    
 
 2. Install the required dependencies:
