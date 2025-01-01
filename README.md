@@ -60,12 +60,15 @@ Correlation Analysis:
 
 Feature correlation analysis was done to understand the relationships between features.
 Key Insight: A few of the features were highly correlated and hence redundant. This insight has been useful for further feature selection and engineering.
+
 3. Model Training and Evaluation:
 Decision Tree Model:
 
 The Decision Tree model was trained and evaluated on the dataset.
 Performance Metrics: Accuracy, precision, recall, and F1-score were calculated to assess the model's performance.
-Key Insight: Though the Decision Tree model clearly explained feature splits and decision rules, it might also be prone to over-fitting. Neural Network Model: A Neural Network model was also trained and tested. Performance Metrics: It will be evaluated on similar metrics: accuracy, precision, recall, F1-score. Key Insight: The more powerful Neural Network model comes at the price of painful hyperparameter tunning and higher computational consumption. 4. Comparing Models
+Key Insight: Though the Decision Tree model clearly explained feature splits and decision rules, it might also be prone to over-fitting. Neural Network Model: A Neural Network model was also trained and tested. Performance Metrics: It will be evaluated on similar metrics: accuracy, precision, recall, F1-score. Key Insight: The more powerful Neural Network model comes at the price of painful hyperparameter tunning and higher computational consumption. 
+
+4. Comparing Models
 Decision Tree vs Neural Network Comparison:
 Performance metrics for both models were compared.
 Key Insight: Comparing the two models provided strengths and weaknesses of each model. For example, a Decision Tree can be more interpretable but less flexible, while a Neural Network might give better performance at the cost of interpretability and computational resources.
