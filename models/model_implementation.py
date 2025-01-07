@@ -25,7 +25,7 @@ def train_neural_network(X_train: pd.DataFrame, y_train: pd.Series, input_shape:
         tf.keras.layers.Input(shape=(input_shape,)),
         tf.keras.layers.Dense(32, activation='relu'),
         tf.keras.layers.Dense(16, activation='relu'),
-        tf.keras.layers.Dense(1, activation='sigmoid')  # Assuming binary classification
+        tf.keras.layers.Dense(1, activation='sigmoid') 
     ])
     
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
